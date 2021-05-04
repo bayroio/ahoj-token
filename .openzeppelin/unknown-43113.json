@@ -1,0 +1,275 @@
+{
+  "manifestVersion": "3.1",
+  "impls": {
+    "214d483a204c1037d5346c67f93ddc2415fd68b6c1c6f230c97cbadd82ea90a7": {
+      "address": "0xD690932cFf77fA8E3DeAa829f2D97E3E0306Ad19",
+      "txHash": "0xd2a67dae749240e73b3688bad37b461b38177479c54031db463bae6fad4a11d4",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "contracts/_external/Initializable.sol:19"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "contracts/_external/Initializable.sol:24"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "contracts/_external/Initializable.sol:69"
+          },
+          {
+            "contract": "ERC20Detailed",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "contracts/_external/ERC20Detailed.sol:13"
+          },
+          {
+            "contract": "ERC20Detailed",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "contracts/_external/ERC20Detailed.sol:14"
+          },
+          {
+            "contract": "ERC20Detailed",
+            "label": "_decimals",
+            "type": "t_uint8",
+            "src": "contracts/_external/ERC20Detailed.sol:15"
+          },
+          {
+            "contract": "ERC20Detailed",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "contracts/_external/ERC20Detailed.sol:48"
+          },
+          {
+            "contract": "Ownable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "contracts/_external/Ownable.sol:11"
+          },
+          {
+            "contract": "Ownable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "contracts/_external/Ownable.sol:75"
+          },
+          {
+            "contract": "UFragments",
+            "label": "monetaryPolicy",
+            "type": "t_address",
+            "src": "contracts/UFragments.sol:44"
+          },
+          {
+            "contract": "UFragments",
+            "label": "rebasePausedDeprecated",
+            "type": "t_bool",
+            "src": "contracts/UFragments.sol:51"
+          },
+          {
+            "contract": "UFragments",
+            "label": "tokenPausedDeprecated",
+            "type": "t_bool",
+            "src": "contracts/UFragments.sol:52"
+          },
+          {
+            "contract": "UFragments",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "contracts/UFragments.sol:71"
+          },
+          {
+            "contract": "UFragments",
+            "label": "_gonsPerFragment",
+            "type": "t_uint256",
+            "src": "contracts/UFragments.sol:72"
+          },
+          {
+            "contract": "UFragments",
+            "label": "_gonBalances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts/UFragments.sol:73"
+          },
+          {
+            "contract": "UFragments",
+            "label": "_allowedFragments",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "contracts/UFragments.sol:77"
+          },
+          {
+            "contract": "UFragments",
+            "label": "_nonces",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "contracts/UFragments.sol:92"
+          }
+        ],
+        "types": {
+          "t_address": {
+            "label": "address"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          }
+        }
+      }
+    },
+    "c0e0dd7c99101291459a641085be1f70e14e9558020225c179d6f925374a128d": {
+      "address": "0x5791fbedD6Ff57d009ea8B69F7773Eb829d46c86",
+      "txHash": "0xb6a98666f0b9c6e6419c1c4d741afa93b516232249400c3191bb47746a102cf7",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "contracts/_external/Initializable.sol:19"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "contracts/_external/Initializable.sol:24"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "contracts/_external/Initializable.sol:69"
+          },
+          {
+            "contract": "Ownable",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "contracts/_external/Ownable.sol:11"
+          },
+          {
+            "contract": "Ownable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "contracts/_external/Ownable.sol:75"
+          },
+          {
+            "contract": "UFragmentsPolicy",
+            "label": "uFrags",
+            "type": "t_contract(IUFragments)1083",
+            "src": "contracts/UFragmentsPolicy.sol:41"
+          },
+          {
+            "contract": "UFragmentsPolicy",
+            "label": "cpiOracle",
+            "type": "t_contract(IOracle)1091",
+            "src": "contracts/UFragmentsPolicy.sol:44"
+          },
+          {
+            "contract": "UFragmentsPolicy",
+            "label": "marketOracle",
+            "type": "t_contract(IOracle)1091",
+            "src": "contracts/UFragmentsPolicy.sol:48"
+          },
+          {
+            "contract": "UFragmentsPolicy",
+            "label": "baseCpi",
+            "type": "t_uint256",
+            "src": "contracts/UFragmentsPolicy.sol:51"
+          },
+          {
+            "contract": "UFragmentsPolicy",
+            "label": "deviationThreshold",
+            "type": "t_uint256",
+            "src": "contracts/UFragmentsPolicy.sol:57"
+          },
+          {
+            "contract": "UFragmentsPolicy",
+            "label": "rebaseLag",
+            "type": "t_uint256",
+            "src": "contracts/UFragmentsPolicy.sol:62"
+          },
+          {
+            "contract": "UFragmentsPolicy",
+            "label": "minRebaseTimeIntervalSec",
+            "type": "t_uint256",
+            "src": "contracts/UFragmentsPolicy.sol:65"
+          },
+          {
+            "contract": "UFragmentsPolicy",
+            "label": "lastRebaseTimestampSec",
+            "type": "t_uint256",
+            "src": "contracts/UFragmentsPolicy.sol:68"
+          },
+          {
+            "contract": "UFragmentsPolicy",
+            "label": "rebaseWindowOffsetSec",
+            "type": "t_uint256",
+            "src": "contracts/UFragmentsPolicy.sol:72"
+          },
+          {
+            "contract": "UFragmentsPolicy",
+            "label": "rebaseWindowLengthSec",
+            "type": "t_uint256",
+            "src": "contracts/UFragmentsPolicy.sol:75"
+          },
+          {
+            "contract": "UFragmentsPolicy",
+            "label": "epoch",
+            "type": "t_uint256",
+            "src": "contracts/UFragmentsPolicy.sol:78"
+          },
+          {
+            "contract": "UFragmentsPolicy",
+            "label": "orchestrator",
+            "type": "t_address",
+            "src": "contracts/UFragmentsPolicy.sol:89"
+          }
+        ],
+        "types": {
+          "t_contract(IUFragments)1083": {
+            "label": "contract IUFragments"
+          },
+          "t_contract(IOracle)1091": {
+            "label": "contract IOracle"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  },
+  "admin": {
+    "address": "0x36A6788EFEf85887b99fe5848127687d5Ca700e6",
+    "txHash": "0x19e6ee3e24c7b44a868faad0771d6f6fdf7eafc7c1e69270e8a1a9f3b771c032"
+  }
+}
